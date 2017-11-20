@@ -1,0 +1,20 @@
+<?php \Controllers\Page::loadFragments("header");?>
+<section id="content">
+<main>
+	<form action="UTILISATEUR/login" method="POST">
+<ul class="form-style-1">
+    <li><label>Login : </label><input type="text" name="email" class="field-divided" placeholder="Login" />&nbsp;</li>
+    <li>
+        <label>Mot de passe : </label>
+        <input type="text" name="passwd" class="field-divided" />
+    </li>
+    <li>
+        <input type="submit" value="Validé" />
+    </li>
+</ul>
+</form>
+</main>
+</section>
+
+<?php \Controllers\Page::loadFragments("footer");?>
+

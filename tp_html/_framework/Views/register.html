@@ -1,0 +1,31 @@
+
+<?php \Controllers\page::loadFragments("header"); ?>
+<section id="content">
+
+<main>
+	<form action="UTILISATEUR/REGISTER" method="POST">
+<ul class="form-style-1">
+    <li><label>Nom : </label><input type="text" name="nom" class="field-divided" placeholder="Nom" />&nbsp;</li>
+    <li>
+        <label>Prénom : </label>
+        <input type="text" name="prenom" class="field-divided" placeholder="Prénom" >
+    <li>
+    <li>
+        <label>Email : </label>
+        <input type="text" name="email" class="field-divided" placeholder="Email" >
+    <li>
+    <li>
+        <label>mot de passe  : </label>
+        <input type="text" name="passwd" class="field-divided" placeholder="mot de passe" >
+    <li>
+        <input type="submit" value="Validé" />
+    </li>
+</ul>
+</form>
+</main>
+ 
+</section>
+
+<?php \Controllers\Page::loadFragments("footer");?>
+
+
